@@ -34,6 +34,7 @@ public class AdminController {
     CategoryService categoryService;
 
     public AdminController() {
+        System.out.println("Default constructor");
     }
 
     @Autowired
